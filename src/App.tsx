@@ -1,4 +1,5 @@
 import { ChakraProvider, Grid, GridItem } from "@chakra-ui/react";
+import NavBar from "./components/NavBar.tsx";
 
 function App() {
  return (
@@ -15,8 +16,8 @@ function App() {
           color="blackAlpha.700"
           fontWeight="bold"
       >
-       <GridItem area="nav" bg="tomato" p={4}>
-        Nav
+       <GridItem area="nav" p={4}>
+        <NavBar/>
        </GridItem>
        <GridItem area="main" bg="blue.500" p={4}>
         Main
