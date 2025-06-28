@@ -19,12 +19,11 @@ function App() {
        <GridItem area="nav" p={4}>
         <NavBar/>
        </GridItem>
-       <GridItem area="main" bg="blue.500" p={4}>
+       <GridItem area="main" p={4}>
         Main
        </GridItem>
        <GridItem
            area="aside"
-           bg="yellow.400"
            p={4}
            display={{ base: "none", md: "block" }}
        >
