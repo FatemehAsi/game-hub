@@ -8,8 +8,8 @@ function App() {
      <ChakraProvider>
       <Grid
           templateAreas={{
-           base: `"nav" "main"`,        // حالت موبایل
-           md: `"nav nav" "aside main"` // حالت تبلت/لپ‌تاپ
+           base: `"nav" "main"`,
+           md: `"nav nav" "aside main"`
           }}
           gridTemplateRows={{ base: "50px 1fr", md: "50px 1fr" }}
           gridTemplateColumns={{ base: "1fr", md: "200px 1fr" }}
